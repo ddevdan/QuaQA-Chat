@@ -2,12 +2,13 @@
   "name": "quaqa-chat",
   "displayName": "QuaQA",
   "description": "Generates Gherkin tests for code using CoPilot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "./images/icon.png",
   "publisher": "quaqa-pato",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aas8/QuaQA-Chat"},
+    "url": "https://github.com/aas8/QuaQA-Chat"
+  },
   "engines": {
     "vscode": "^1.97.0"
   },
