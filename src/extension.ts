@@ -12,7 +12,7 @@ import * as dotenv from 'dotenv';
 export async function activate(context: vscode.ExtensionContext) {
 
 	dotenv.config({ path: context.asAbsolutePath('.env') });
-	const MIXPANEL_TOKEN = process.env.MIXPANEL_TOKEN;
+	const MIXPANEL_TOKEN = "70bf2c1b95847af2d4e5dc90345f91c8";
 	const mixpanel = Mixpanel.init(MIXPANEL_TOKEN as string);
 	
 
