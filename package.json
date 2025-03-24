@@ -3,6 +3,8 @@
   "displayName": "QuaQA",
   "description": "Generates Gherkin tests for code using CoPilot",
   "version": "1.0.0",
+  "icon": "./images/icon.png",
+  "publisher": "quaqa-pato",
   "repository": {
     "type": "git",
     "url": "https://github.com/aas8/QuaQA-Chat"},
@@ -34,7 +36,6 @@
       ]
     }
   },
-  "enabledApiProposals": ["contribEditorContentMenu"],
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",
